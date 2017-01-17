@@ -101,7 +101,7 @@ Solo 的主要作者是 [Daniel](https://github.com/88250) 与 [Vanessa](http
 - You can not get rid of the "Powered by [B3log 开源](http://b3log.org/)" from any page, even which you made
 - If you want to use this software for commercial purpose, please mail to [support@liuyun.io](mailto:support@liuyun.io) for a commercial license request
 - Copyright © b3log.org, all rights reserved
-
+* [ ] 
 ## 鸣谢
 
 Solo 的诞生离不开以下开源项目：
