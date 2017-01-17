@@ -1,0 +1,72 @@
+[INFO ]-[2017-01-12 09:57:42]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-12 09:57:45]-[org.b3log.solo.SoloServletListener:228]: Please open browser and visit [http://localhost:8080] to init your Solo, and then enjoy it :-p
+[INFO ]-[2017-01-12 09:57:45]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://localhost:8080]
+[WARN ]-[2017-01-12 09:57:45]-[org.eclipse.jetty.util.component.AbstractLifeCycle:212]: FAILED ServerConnector@347ee033{HTTP/1.1}{0.0.0.0:8080}: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.b3log.solo.Starter.main(Starter.java:170)
+[WARN ]-[2017-01-12 09:57:45]-[org.eclipse.jetty.util.component.AbstractLifeCycle:212]: FAILED org.eclipse.jetty.server.Server@554f7a0d: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.b3log.solo.Starter.main(Starter.java:170)
+[ERROR]-[2017-01-12 09:57:45]-[org.b3log.solo.Starter:172]: Server start failed
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.b3log.solo.Starter.main(Starter.java:170)
+[INFO ]-[2017-01-12 10:01:13]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-12 10:01:14]-[org.b3log.solo.SoloServletListener:228]: Please open browser and visit [http://localhost:8080] to init your Solo, and then enjoy it :-p
+[INFO ]-[2017-01-12 10:01:14]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://localhost:8080]
+[INFO ]-[2017-01-12 10:02:03]-[org.b3log.solo.service.InitService:222]: Solo is running on [LOCAL] environment, database [H2], creates all tables
+[INFO ]-[2017-01-12 10:02:03]-[org.b3log.solo.service.InitService:228]: YOUR DATA will be stored in directory [jdbc:h2:C:\Users\dell/solo_h2/db], please pay more attention to it~
+[INFO ]-[2017-01-12 10:02:03]-[org.b3log.solo.service.InitService:358]: Hello World!
+[INFO ]-[2017-01-12 10:20:12]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-12 10:20:17]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://localhost:8080]
+[INFO ]-[2017-01-12 10:38:38]-[org.b3log.solo.processor.LoginProcessor:208]: Login[email=821885268@qq.com]
+[INFO ]-[2017-01-12 10:38:38]-[org.b3log.solo.processor.LoginProcessor:220]: Logged in[email=821885268@qq.com]
+[INFO ]-[2017-01-12 10:48:12]-[org.b3log.solo.event.rhythm.ArticleSender:110]: Solo runs on local server, so should not send this article[id=1484189292111, title=我的博客-测试篇] to Rhythm
+[INFO ]-[2017-01-12 12:16:18]-[org.b3log.solo.event.rhythm.ArticleUpdater:109]: Solo runs on local server, so should not send this article[id=1484189292111, title=我的博客-测试篇] to Rhythm
+[INFO ]-[2017-01-13 13:29:10]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-13 13:29:15]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://localhost:8080]
+[INFO ]-[2017-01-13 13:29:42]-[org.b3log.solo.event.comment.ArticleCommentReplyNotifier:78]: Solo runs on local server, so should not send mail
+[INFO ]-[2017-01-13 13:48:57]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-13 13:48:59]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://localhost:8080]
+[INFO ]-[2017-01-13 14:08:18]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-13 14:08:20]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://luolblog.com:9999]
+[INFO ]-[2017-01-13 14:10:07]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-13 14:10:08]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://luolblog.com]
+[INFO ]-[2017-01-13 14:12:04]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-13 14:12:06]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://luolblog.com]
+[INFO ]-[2017-01-13 14:13:16]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-13 14:13:18]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://localhost:8080]
+[INFO ]-[2017-01-13 14:31:55]-[org.b3log.solo.Starter:150]: Standalone mode, see [https://github.com/b3log/solo/wiki/standalone_mode] for more details.
+[INFO ]-[2017-01-13 14:31:57]-[org.b3log.solo.SoloServletListener:149]: Solo is running [http://localhost:8080]
